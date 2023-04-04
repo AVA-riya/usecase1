@@ -32,4 +32,4 @@ jobs:
           sudo docker rm -f back
           sudo docker rmi -f padmapriya06/backend
           sudo docker pull padmapriya06/backend:latest
-          sudo docker run --name back -p 8000:3000 padmapriya06/backend:latest
+          sudo docker run --name back -p 3000:3000 padmapriya06/backend:latest
